@@ -15,6 +15,7 @@ app.use(cors({
   origin: [
     "https://gomathtech.netlify.app",
     "https://gomathtechnologies.com",
+    "https://api.gomathtechnologies.com",
     "http://localhost:4200"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
